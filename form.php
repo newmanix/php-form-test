@@ -1,6 +1,6 @@
 <?php
-if(){//show data
-
+if(isset($_GET["FirstName"])){//show data
+  echo $_GET["FirstName"];
 }else{//show form
   echo 
   '
